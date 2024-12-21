@@ -1,0 +1,323 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript Basics",
+        "questions": [
+          {
+            "id": 1,
+            "text": "Which of the following is used to declare a variable in JavaScript?",
+            "answers": [
+              { "id": 1, "text": "var", "is_correct": 0, "question_id": 1 },
+              { "id": 2, "text": "let", "is_correct": 0, "question_id": 1 },
+              { "id": 3, "text": "const", "is_correct": 0, "question_id": 1 },
+              { "id": 4, "text": "all of the above", "is_correct": 1, "question_id": 1 }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Which of the following is the correct syntax to create a function in JavaScript?",
+            "answers": [
+              { "id": 5, "text": "function() {}", "is_correct": 1, "question_id": 2 },
+              { "id": 6, "text": "def() {}", "is_correct": 0, "question_id": 2 },
+              { "id": 7, "text": "function: {} ", "is_correct": 0, "question_id": 2 },
+              { "id": 8, "text": "func() {}", "is_correct": 0, "question_id": 2 }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "What is the output of `console.log(1 + '1')`?",
+            "answers": [
+              { "id": 9, "text": "11", "is_correct": 1, "question_id": 3 },
+              { "id": 10, "text": "2", "is_correct": 0, "question_id": 3 },
+              { "id": 11, "text": "1", "is_correct": 0, "question_id": 3 },
+              { "id": 12, "text": "NaN", "is_correct": 0, "question_id": 3 }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Which of the following is a primitive data type in JavaScript?",
+            "answers": [
+              { "id": 13, "text": "String", "is_correct": 1, "question_id": 4 },
+              { "id": 14, "text": "Array", "is_correct": 0, "question_id": 4 },
+              { "id": 15, "text": "Object", "is_correct": 0, "question_id": 4 },
+              { "id": 16, "text": "Function", "is_correct": 0, "question_id": 4 }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "What does `NaN` stand for in JavaScript?",
+            "answers": [
+              { "id": 17, "text": "Not a Number", "is_correct": 1, "question_id": 5 },
+              { "id": 18, "text": "Number Not Available", "is_correct": 0, "question_id": 5 },
+              { "id": 19, "text": "Not a Name", "is_correct": 0, "question_id": 5 },
+              { "id": 20, "text": "Null and Not", "is_correct": 0, "question_id": 5 }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Which of the following methods is used to round a number in JavaScript?",
+            "answers": [
+              { "id": 21, "text": "Math.round()", "is_correct": 1, "question_id": 6 },
+              { "id": 22, "text": "Math.floor()", "is_correct": 0, "question_id": 6 },
+              { "id": 23, "text": "Math.ceil()", "is_correct": 0, "question_id": 6 },
+              { "id": 24, "text": "round()", "is_correct": 0, "question_id": 6 }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "What is the default value of a variable declared with `let`?",
+            "answers": [
+              { "id": 25, "text": "undefined", "is_correct": 1, "question_id": 7 },
+              { "id": 26, "text": "null", "is_correct": 0, "question_id": 7 },
+              { "id": 27, "text": "false", "is_correct": 0, "question_id": 7 },
+              { "id": 28, "text": "0", "is_correct": 0, "question_id": 7 }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "How do you create a comment in JavaScript?",
+            "answers": [
+              { "id": 29, "text": "// This is a comment", "is_correct": 1, "question_id": 8 },
+              { "id": 30, "text": "/* This is a comment */", "is_correct": 0, "question_id": 8 },
+              { "id": 31, "text": "// This is a comment;", "is_correct": 0, "question_id": 8 },
+              { "id": 32, "text": "<!-- This is a comment -->", "is_correct": 0, "question_id": 8 }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "What is the result of `typeof 3.14`?",
+            "answers": [
+              { "id": 33, "text": "number", "is_correct": 1, "question_id": 9 },
+              { "id": 34, "text": "float", "is_correct": 0, "question_id": 9 },
+              { "id": 35, "text": "NaN", "is_correct": 0, "question_id": 9 },
+              { "id": 36, "text": "undefined", "is_correct": 0, "question_id": 9 }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Which operator is used to assign a value to a variable in JavaScript?",
+            "answers": [
+              { "id": 37, "text": "=", "is_correct": 1, "question_id": 10 },
+              { "id": 38, "text": "==", "is_correct": 0, "question_id": 10 },
+              { "id": 39, "text": "===", "is_correct": 0, "question_id": 10 },
+              { "id": 40, "text": ":", "is_correct": 0, "question_id": 10 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "JavaScript Objects",
+        "questions": [
+          {
+            "id": 1,
+            "text": "How do you create an empty object in JavaScript?",
+            "answers": [
+              { "id": 1, "text": "{}", "is_correct": 1, "question_id": 1 },
+              { "id": 2, "text": "new Object()", "is_correct": 1, "question_id": 1 },
+              { "id": 3, "text": "Object.create()", "is_correct": 1, "question_id": 1 },
+              { "id": 4, "text": "All of the above", "is_correct": 1, "question_id": 1 }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Which method is used to check if an object has a specific property?",
+            "answers": [
+              { "id": 5, "text": "hasOwnProperty()", "is_correct": 1, "question_id": 2 },
+              { "id": 6, "text": "contains()", "is_correct": 0, "question_id": 2 },
+              { "id": 7, "text": "propertyExists()", "is_correct": 0, "question_id": 2 },
+              { "id": 8, "text": "in()", "is_correct": 0, "question_id": 2 }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "How can you add a new property to an object?",
+            "answers": [
+              { "id": 9, "text": "object.property = value", "is_correct": 1, "question_id": 3 },
+              { "id": 10, "text": "object.addProperty('property', value)", "is_correct": 0, "question_id": 3 },
+              { "id": 11, "text": "object.add('property', value)", "is_correct": 0, "question_id": 3 },
+              { "id": 12, "text": "object.property(value)", "is_correct": 0, "question_id": 3 }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "What does `Object.keys(obj)` return?",
+            "answers": [
+              { "id": 13, "text": "An array of the object's keys", "is_correct": 1, "question_id": 4 },
+              { "id": 14, "text": "An array of the object's values", "is_correct": 0, "question_id": 4 },
+              { "id": 15, "text": "An array of the object's properties", "is_correct": 0, "question_id": 4 },
+              { "id": 16, "text": "The object itself", "is_correct": 0, "question_id": 4 }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "What is the result of `delete obj.property`?",
+            "answers": [
+              { "id": 17, "text": "Removes the property from the object", "is_correct": 1, "question_id": 5 },
+              { "id": 18, "text": "Sets the property to undefined", "is_correct": 0, "question_id": 5 },
+              { "id": 19, "text": "Throws an error", "is_correct": 0, "question_id": 5 },
+              { "id": 20, "text": "Nothing happens", "is_correct": 0, "question_id": 5 }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "How do you prevent an object from being modified in JavaScript?",
+            "answers": [
+              { "id": 21, "text": "Object.freeze()", "is_correct": 1, "question_id": 6 },
+              { "id": 22, "text": "Object.seal()", "is_correct": 0, "question_id": 6 },
+              { "id": 23, "text": "Object.preventExtensions()", "is_correct": 0, "question_id": 6 },
+              { "id": 24, "text": "Object.noChanges()", "is_correct": 0, "question_id": 6 }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "What is the output of `console.log(Object.prototype)`?",
+            "answers": [
+              { "id": 25, "text": "The prototype of all objects", "is_correct": 1, "question_id": 7 },
+              { "id": 26, "text": "An empty object", "is_correct": 0, "question_id": 7 },
+              { "id": 27, "text": "undefined", "is_correct": 0, "question_id": 7 },
+              { "id": 28, "text": "Error", "is_correct": 0, "question_id": 7 }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "How do you create an object that inherits from another?",
+            "answers": [
+              { "id": 29, "text": "Object.create(proto)", "is_correct": 1, "question_id": 8 },
+              { "id": 30, "text": "new Object(proto)", "is_correct": 0, "question_id": 8 },
+              { "id": 31, "text": "proto.create()", "is_correct": 0, "question_id": 8 },
+              { "id": 32, "text": "Object.inherit(proto)", "is_correct": 0, "question_id": 8 }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "What will `typeof {}` return?",
+            "answers": [
+              { "id": 33, "text": "object", "is_correct": 1, "question_id": 9 },
+              { "id": 34, "text": "null", "is_correct": 0, "question_id": 9 },
+              { "id": 35, "text": "array", "is_correct": 0, "question_id": 9 },
+              { "id": 36, "text": "undefined", "is_correct": 0, "question_id": 9 }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Which method adds new elements to the end of an array?",
+            "answers": [
+              { "id": 37, "text": "push()", "is_correct": 1, "question_id": 10 },
+              { "id": 38, "text": "pop()", "is_correct": 0, "question_id": 10 },
+              { "id": 39, "text": "shift()", "is_correct": 0, "question_id": 10 },
+              { "id": 40, "text": "unshift()", "is_correct": 0, "question_id": 10 }
+            ]
+          }
+        ]
+      },
+      
+      
+      {
+        "id": 3,
+        "name": "JavaScript Advanced",
+        "questions": [
+          {
+            "id": 1,
+            "text": "What is the purpose of the 'bind()' method in JavaScript?",
+            "answers": [
+              { "id": 1, "text": "To bind events to DOM elements", "is_correct": 0, "question_id": 1 },
+              { "id": 2, "text": "To create a new function with a specific 'this' value", "is_correct": 1, "question_id": 1 },
+              { "id": 3, "text": "To declare a constant", "is_correct": 0, "question_id": 1 },
+              { "id": 4, "text": "To create a closure", "is_correct": 0, "question_id": 1 }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "What will `console.log(typeof null)` print?",
+            "answers": [
+              { "id": 5, "text": "object", "is_correct": 1, "question_id": 2 },
+              { "id": 6, "text": "null", "is_correct": 0, "question_id": 2 },
+              { "id": 7, "text": "undefined", "is_correct": 0, "question_id": 2 },
+              { "id": 8, "text": "boolean", "is_correct": 0, "question_id": 2 }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "How can you prevent an object from being modified in JavaScript?",
+            "answers": [
+              { "id": 9, "text": "Using Object.seal()", "is_correct": 0, "question_id": 3 },
+              { "id": 10, "text": "Using Object.freeze()", "is_correct": 1, "question_id": 3 },
+              { "id": 11, "text": "Using strict mode", "is_correct": 0, "question_id": 3 },
+              { "id": 12, "text": "Using a closure", "is_correct": 0, "question_id": 3 }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Which of the following keywords is used to declare a block-scoped variable?",
+            "answers": [
+              { "id": 13, "text": "var", "is_correct": 0, "question_id": 4 },
+              { "id": 14, "text": "let", "is_correct": 1, "question_id": 4 },
+              { "id": 15, "text": "const", "is_correct": 0, "question_id": 4 },
+              { "id": 16, "text": "function", "is_correct": 0, "question_id": 4 }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "What is the output of `[] == ![]`?",
+            "answers": [
+              { "id": 17, "text": "true", "is_correct": 1, "question_id": 5 },
+              { "id": 18, "text": "false", "is_correct": 0, "question_id": 5 },
+              { "id": 19, "text": "undefined", "is_correct": 0, "question_id": 5 },
+              { "id": 20, "text": "NaN", "is_correct": 0, "question_id": 5 }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "What does the `this` keyword refer to in an arrow function?",
+            "answers": [
+              { "id": 21, "text": "The global object", "is_correct": 0, "question_id": 6 },
+              { "id": 22, "text": "The object that called the function", "is_correct": 0, "question_id": 6 },
+              { "id": 23, "text": "The surrounding lexical scope", "is_correct": 1, "question_id": 6 },
+              { "id": 24, "text": "The function itself", "is_correct": 0, "question_id": 6 }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "What does `Promise.all()` do?",
+            "answers": [
+              { "id": 25, "text": "Waits for all promises to resolve", "is_correct": 1, "question_id": 7 },
+              { "id": 26, "text": "Executes the promises sequentially", "is_correct": 0, "question_id": 7 },
+              { "id": 27, "text": "Returns the first resolved promise", "is_correct": 0, "question_id": 7 },
+              { "id": 28, "text": "Handles rejected promises", "is_correct": 0, "question_id": 7 }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "What is the output of `console.log([] + [])`?",
+            "answers": [
+              { "id": 29, "text": "''", "is_correct": 1, "question_id": 8 },
+              { "id": 30, "text": "' '" , "is_correct": 0, "question_id": 8 },
+              { "id": 31, "text": "null", "is_correct": 0, "question_id": 8 },
+              { "id": 32, "text": "undefined", "is_correct": 0, "question_id": 8 }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "What is a closure in JavaScript?",
+            "answers": [
+              { "id": 33, "text": "A function that has access to its own scope, the outer function's scope, and the global scope", "is_correct": 1, "question_id": 9 },
+              { "id": 34, "text": "A function that accesses global variables only", "is_correct": 0, "question_id": 9 },
+              { "id": 35, "text": "A function that can be executed after its outer function has returned", "is_correct": 0, "question_id": 9 },
+              { "id": 36, "text": "A function that has no scope", "is_correct": 0, "question_id": 9 }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Which of the following is a valid way to create a promise in JavaScript?",
+            "answers": [
+              { "id": 37, "text": "new Promise(resolve, reject)", "is_correct": 1, "question_id": 10 },
+              { "id": 38, "text": "Promise.new(resolve, reject)", "is_correct": 0, "question_id": 10 },
+              { "id": 39, "text": "Promise.create(resolve, reject)", "is_correct": 0, "question_id": 10 },
+              { "id": 40, "text": "new Promise() {}", "is_correct": 0, "question_id": 10 }
+            ]
+          }
+        ]
+      }
+      
+]
